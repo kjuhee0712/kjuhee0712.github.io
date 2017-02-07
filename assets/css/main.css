@@ -2527,8 +2527,11 @@
 		}
 
 		#header .image.avatar {
+			display:inline-block;
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width:57%;
+			max-width: 382px;
+			height:auto;
 		}
 
 /* Footer */
