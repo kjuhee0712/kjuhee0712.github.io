@@ -2529,8 +2529,8 @@
 
 		#header ul { list-style:none; }
 		#header ul li { float:right; margin-top:7px; line-height:initial; }
-		#header ul li.enter { clear:left; }
-		#header ul li a { font-size:0.65em; color:#fff; }
+		#header ul li.enter { clear:right; }
+		#header ul li a { font-size:0.65em; color:#fff; opacity:0.9; }
 
 		#header .image.avatar {
 			display:inline-block;
