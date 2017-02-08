@@ -3056,6 +3056,7 @@
 				}
 
 				#header ul { width:90%; margin:1em auto 0; }
+				#header .image.avatar { width:45%; }
 
 		/* Footer */
 
@@ -3135,7 +3136,7 @@
 					display: none;
 				}
 
-				#header .image.avatar { width:45%; }
+				#header .image.avatar { width:50%; }
 
 		/* Footer */
 
