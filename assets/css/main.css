@@ -2597,7 +2597,7 @@
 				margin-top: 0;
 				padding-top: 0;
 			}
-		#main > section#one p { display:inline-block; margin-top:3em; font-size:13px; }
+		#main > section#one p { display:inline-block; margin-top:3em; font-size:13px; line-height:2.7em; }
 /* Poptrox */
 
 	@-moz-keyframes spin {
