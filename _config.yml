@@ -1,9 +1,14 @@
-# Site settings
+﻿# Site settings
 email: 
 baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
 google_analytics: 
+
+
+# Name of your site (displayed in the header)
+name: Your Name
+description: Web Developer from Somewhere
 
 # SEO settings
 title: Trophy
@@ -17,17 +22,29 @@ name:
 profile_img: 
 profile: 
 social:
-  github: 
+github: 
 
 # Build settings
 include: ["_categories"]
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
+syntax_highlighter: rouge
+syntax_highlighter_opts:
+# Use existing pygments syntax highlighting css
+css_class: 'highlight'
 
 # Sass
 sass:
-  style: compressed
+  style: expanded
 
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  
 # Gems
 gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
