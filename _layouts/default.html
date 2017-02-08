@@ -5,6 +5,10 @@
 
     {% include meta.html %}
 
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     
@@ -38,29 +42,31 @@
         </div>
       </header>
 
+    <div>
+      {{ content }}  
+    </div>
     
-    {{ content }}
     
 
-  <!-- Footer -->
-    <footer id="footer">
-      <div class="inner">
-        <ul class="inform">
-          <li>&copy; DS</li>
-          <li>010.3312.6692&nbsp;&nbsp;|&nbsp;&nbsp;</li>
-          <li>kjuhee0712@gmail.com&nbsp;&nbsp;|&nbsp;&nbsp;</li>
-          <li>Kwon Ju Hee&nbsp;&nbsp;|&nbsp;&nbsp;</li>
-        </ul>
-      </div>
-    </footer>
+<!-- Footer -->
+  <footer id="footer">
+    <div class="inner">
+      <ul class="inform">
+        <li>&copy; DS</li>
+        <li>010.3312.6692&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+        <li>kjuhee0712@gmail.com&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+        <li>Kwon Ju Hee&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+      </ul>
+    </div>
+  </footer>
 
-  <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.poptrox.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    <script src="assets/js/main.js"></script>
+<!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.poptrox.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="assets/js/main.js"></script>
 
     {% include analytics.html %}
   </body>
