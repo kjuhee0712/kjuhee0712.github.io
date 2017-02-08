@@ -2527,7 +2527,7 @@
 			margin: 0;
 		}
 
-		#header ul { list-style:none; }
+		#header ul { list-style:none; margin-top:2em;}
 		#header ul li { float:right; margin-top:7px; line-height:initial; }
 		#header ul li.enter { clear:right; }
 		#header ul li a { font-size:13px; color:#fff; opacity:0.9; }
