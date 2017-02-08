@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 ---
-test
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
@@ -9,6 +9,7 @@ test
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
+      	<span>test</span>
         {{ post.excerpt }}
       </div>
 
