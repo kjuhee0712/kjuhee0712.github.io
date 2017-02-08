@@ -2528,7 +2528,7 @@
 		}
 
 		#header ul { list-style:none; }
-		#header ul li a { font-size:0.65em; }
+		#header ul li a { font-size:0.65em; color:#fff; }
 
 		#header .image.avatar {
 			display:inline-block;
