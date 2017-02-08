@@ -2939,13 +2939,14 @@
 				background-position: top left, center center;
 				background-size: auto,		cover;
 				left: auto;
-				padding: 6em 4em;
+				padding: 5em 4em;
 				position: relative;
 				text-align: center;
 				top: auto;
 				width: 100%;
 				display: block;
 			}
+			#header > .inner { margin-bottom:0; }
 
 				#header h1 {
 					font-size: 1.75em;
@@ -2954,6 +2955,11 @@
 					#header h1 br {
 						display: inline;
 					}
+	
+				#header ul { width:80%; margin:2em auto 0; } 	
+				#header ul li { display:inline-block; padding:0 0.6em; } 	
+				#header ul li a { font-size:0.9em; } 	
+				#header .image.avatar { margin-left:-1em; width:30%; }
 
 		/* Footer */
 
@@ -2966,7 +2972,7 @@
 				background-size: auto,							cover;
 				bottom: auto;
 				left: auto;
-				padding: 4em 4em 6em 4em;
+				padding: 4em;
 				position: relative;
 				text-align: center;
 				width: 100%;
@@ -2975,6 +2981,8 @@
 				#footer .icons {
 					margin: 0 0 1em 0;
 				}
+
+				#footer ul li { margin-bottom:0; font-size:0.95em; }
 
 				#footer .copyright {
 					margin: 0 0 1em 0;
@@ -3039,12 +3047,14 @@
 		/* Header */
 
 			#header {
-				padding: 2.25em 1.5em;
+				padding: 4em 1.5em;
 			}
 
 				#header h1 {
 					font-size: 1.35em;
 				}
+
+				#header ul { width:90%; margin:1em auto 0; }
 
 		/* Footer */
 
@@ -3123,6 +3133,8 @@
 				#header h1 br {
 					display: none;
 				}
+
+				#header .image.avatar { width:45%; }
 
 		/* Footer */
 
