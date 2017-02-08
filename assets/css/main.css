@@ -2528,6 +2528,8 @@
 		}
 
 		#header ul { list-style:none; }
+		#header ul li { float:right; margin-top:7px; line-height:initial; }
+		#header ul li.enter { clear:left; }
 		#header ul li a { font-size:0.65em; color:#fff; }
 
 		#header .image.avatar {
@@ -2547,6 +2549,7 @@
 		#footer .icons a {
 			color: rgba(255, 255, 255, 0.4);
 		}
+		#footer ul li { padding-left:0; font-size:0.65em; }
 
 	#footer .copyright {
 		color: rgba(255, 255, 255, 0.4);
