@@ -2956,9 +2956,10 @@
 						display: inline;
 					}
 	
-				#header ul { width:80%; margin:2em auto 0; } 	
-				#header ul li { display:inline-block; padding:0 0.6em; } 	
+				#header ul { width:80%; margin:2em auto 0; text-align:center; } 	
+				#header ul li { display:inline-block; float:none; padding:0 0.6em; } 	
 				#header ul li a { font-size:0.9em; } 	
+				#header ul li.enter { clear:none; }
 				#header .image.avatar { margin-left:-1em; width:30%; }
 
 		/* Footer */
