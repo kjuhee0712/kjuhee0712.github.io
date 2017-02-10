@@ -1,3 +1,15 @@
+# Name of your site (displayed in the header)
+name: Your Name
+
+# Short bio or description (displayed in the header)
+description: Web Developer from Somewhere
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://kjuhee0712.github.io/images/logo.png
+
+
+
+
 # Site settings
 email: 
 baseurl: ""
@@ -5,14 +17,8 @@ paginate: 5
 paginate_path: "/blog/page-:num"
 google_analytics: 
 
-
-# Name of your site (displayed in the header)
-name: Your Name
-description: Web Developer from Somewhere
-
 # SEO settings
 title: Trophy
-description: 
 url: ""
 twitter_username: 
 default_img: 
