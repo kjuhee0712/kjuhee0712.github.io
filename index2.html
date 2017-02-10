@@ -401,4 +401,19 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/main.js"></script>
 
 	</body>
+
+	<!-- {% include categories-tab.html %} -->
 </html>
+
+
+		{% if paginator.total_pages > 1 %}
+	        <div class="pagination">
+	          {% if paginator.previous_page %}
+	            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
+	          {% endif %}
+
+	          {% if paginator.next_page %}
+	            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
+	          {% endif %}
+	        </div>
+	    {% endif %}
