@@ -4,7 +4,8 @@ title: "Craft Beer2"
 date: 2016-09-07
 categories:
   - Juice
-"description: desctiption 설명설명"
+description: "desctiption 설명설명"
+tags: aa,bb,cc,dd
 image: https://unsplash.it/2000/1200?image=1003
 image-sm: https://unsplash.it/500/300?image=1003
 ---
