@@ -33,7 +33,7 @@ layout: default
 					<span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
 					<h3 class="preview__header" itemprop="name">{{ post.title }}</h3>
 					<p class="preview__excerpt" itemprop="description">{{ post.description }}</p>					
-					<p class="preview__excerpt" itemprop="description">{{ post.tags }}</p>					
+					<p class="preview__excerpt" itemprop="tags">{{ post.tags }}</p>					
 				</a>				
 			</article>
 			{% endfor %}					
