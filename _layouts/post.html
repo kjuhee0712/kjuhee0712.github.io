@@ -4,8 +4,10 @@ layout: default
 <div id="main">
 
   <section class="section-padding post" itemprop="articleBody">
+    <h2>{{ page.title }}</h2>
     {{ content }}
   </section>
+
   {% if page.previous.url %}
     <section class="next">
       <a class="next__link" href="{{page.previous.url | prepend: site.baseurl }}" style="background-image: url('{{ page.previous.image }}');">
