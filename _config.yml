@@ -31,6 +31,7 @@ markdown: kramdown
 permalink: /:year/:month/:day/:title/
 syntax_highlighter: rouge
 syntax_highlighter_opts:
+paginate: 20
 # Use existing pygments syntax highlighting css
 css_class: 'highlight'
 
