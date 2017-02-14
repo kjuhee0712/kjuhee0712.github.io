@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "BS, 홈페이지디자인, HTML, CSS"
+title: "BS - 홈페이지디자인 HTML CSS"
 date: 2011-05-01
 categories:
-  - Design,
-  - Homepage,
-  - HTML,
+  - Design
+  - Homepage
+  - HTML
   - CSS
 description: 
-image: {{ site.baseurl }}/images/fulls/01_bs.jpg
-image-sm: {{ site.baseurl }}/images/fulls/01_bs.jpg
+image: https://kjuhee0712.github.io/images/fulls/01_bs.jpg
+image-sm: https://kjuhee0712.github.io/images/fulls/01_bs.jpg
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
