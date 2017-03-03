@@ -261,7 +261,7 @@ s@import url("font-awesome.min.css");
 	}
 
 	.row {
-		margin: 0 0 -1px -2.5em !important;
+		margin: 0 0 -1px -2.5em;
 	}
 
 	.row.uniform > * {
