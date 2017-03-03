@@ -31,6 +31,8 @@ layout: default
           <p class="preview__excerpt" itemprop="description">{{ page.next.content | strip_html | truncatewords: 10 }}</p>                  
         </a>        
     </div>
+    {% endif %}
+    {% if page.prev.url %}
     <div class="prev">
         <span><< Prev</span>
         <a  href="{{page.prev.url | prepend: site.baseurl }}"  class="image fit thumb" itemprop="url"><img src="{{ page.prev.image-sm }}" alt="" /></a>
