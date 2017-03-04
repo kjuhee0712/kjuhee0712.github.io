@@ -34,16 +34,11 @@ layout: default
 					<span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y년 %-m부터 약 %-d개월 이내" }}</span>
 					<p class="preview__excerpt" itemprop="description">{{ post.description }}</p>
 				</a>
-				<p class="preview__excerpt" itemprop="description">{{ post.categories }}</p>
-				{% for categories in post.categories %}
-						  <li><a href="/category/{{ categories }}/"># {{ categories }}</a></li>	    
-				{% endfor %}
-
-				 {% unless p.categories == empty %}
-				 {% for categories in post.categories %}
-				 <a href="http://localhost:4000/category.html#{{categories}}">{{ categories }}</a>
-				 {% endfor %}
-				 {% endunless %}
+				<ul class="preview__category">
+					{% for categories in post.categories %}
+						<li><a href="/category/{{ categories }}/"># {{ categories }}</a></li>	    
+					{% endfor %}
+				</ul>
 			</article>
 			{% endfor %}					
 		</div>
