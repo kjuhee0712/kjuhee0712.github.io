@@ -20,7 +20,7 @@
 					<a href="/" class="image avatar"><img src="{{ site.baseurl }}/images/logo.png" alt="" /></a>
 					<ul>
 						{% for category in site.categories %}
-						  <li><a name="{{ category | first }}">{{ category | first }}</a>
+						  <li><a href="/category/{{ category | first }}/">{{ category | first }}</a>
 						    
 						  </li>
 						{% endfor %}
