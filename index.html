@@ -30,7 +30,7 @@ layout: default
 			<article class="6u 12u$(xsmall) preview" itemprop="blogPost">
 				<a href="{{ post.url | prepend: site.baseurl }}" class="image fit thumb" itemprop="url"><img src="{{ post.image-sm }}" alt="" /></a>
 				<a href="{{ post.url | prepend: site.baseurl }}" class="txt" itemprop="url">
-					<span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b 약 %-d 개월, %Y" }}</span>
+					<span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m 약 %-d 개월, %Y" }}</span>
 					<h3 class="preview__header" itemprop="name">{{ post.title }}</h3>
 					<p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 10 }}</p>
 					<p class="preview__excerpt" itemprop="description">{{ post.categories }}</p>
