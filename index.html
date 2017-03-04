@@ -34,6 +34,8 @@ layout: default
 					<h3 class="preview__header" itemprop="name">{{ post.title }}</h3>
 					<p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 10 }}</p>
 					<p class="preview__excerpt" itemprop="description">{{ post.categories }}</p>
+					<p class="preview__excerpt" itemprop="description">{{ post.tags }}</p>
+					<p class="preview__excerpt" itemprop="description">{{ post.description }}</p>
 				</a>				
 			</article>
 			{% endfor %}					
