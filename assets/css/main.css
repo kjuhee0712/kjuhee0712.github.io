@@ -2595,8 +2595,8 @@ s@import url("font-awesome.min.css");
 		#main > section#one p { display:inline-block; margin-top:45px; font-size:13px; }
 		#main > section#one header h2 { margin-bottom:0; }
 
-		#main > section#two a.txt span, #main > section#two a.txt h3 { display:inline; font-size:17px; color:#666; }
-		#main > section#two a.txt p { margin-top:8px; margin-bottom:3em; font-size:15px; color:#aaa; line-height:20px; }		
+		#main > section#two a.txt h3 { display:inline; font-size:17px; color:#666; }
+		#main > section#two a.txt span, #main > section#two a.txt p { margin-top:8px; margin-bottom:3em; font-size:15px; color:#aaa; line-height:20px; }		
 
 /* Poptrox */
 
