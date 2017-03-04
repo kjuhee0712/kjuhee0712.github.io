@@ -3084,7 +3084,8 @@ s@import url("font-awesome.min.css");
 				}
 
 			#right #one h2, #right .post h2, .category_wrap h2 { margin-bottom:1em !important; }
-			.post_wrap { margin-bottom:3em !important; }	
+			.post_wrap { margin-bottom:3em !important; }
+			.post_wrap > ul.inform { margin:20px 0 !important; }	
 
 		/* Poptrox */
 
