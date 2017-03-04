@@ -19,7 +19,8 @@ layout: default
         <a href="{{page.previous.url | prepend: site.baseurl }}" class="txt" itemprop="url">
           <span class="previousiew__date" itemprop="datePublished" datetime="{{ page.previous.date | date_to_xmlschema }}">{{ page.previous.date | date: "%b %-d, %Y" }}</span>
           <h3 class="previousiew__header" itemprop="name">{{ page.previous.title }}</h3>
-          <p class="previousiew__excerpt" itemprop="description">{{ page.previous.content | strip_html | truncatewords: 10 }}</p>                  
+         <!--  <p class="previousiew__excerpt" itemprop="description">{{ page.previous.content | strip_html | truncatewords: 10 }}</p>   -->
+         {% include post_tags.html %}                
         </a>        
     </div>
   {% endif %}
