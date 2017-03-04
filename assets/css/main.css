@@ -3029,8 +3029,6 @@ s@import url("font-awesome.min.css");
 				font-size: 1.2em;
 			}
 
-			#right #one h2 { margin-bottom:1em; }
-
 			h3 {
 				font-size: 1em;
 			}
@@ -3084,6 +3082,9 @@ s@import url("font-awesome.min.css");
 					margin: 2.25em 0 0 0;
 					padding: 2.25em 0 0 0;
 				}
+
+			#right #one h2, #right .post h2, .category_wrap h2 { margin-bottom:1em; }
+			.post_wrap { margin-bottom:3em; }	
 
 		/* Poptrox */
 
