@@ -3083,8 +3083,8 @@ s@import url("font-awesome.min.css");
 					padding: 2.25em 0 0 0;
 				}
 
-			#right #one h2, #right .post h2, .category_wrap h2 { margin-bottom:1em; }
-			.post_wrap { margin-bottom:3em; }	
+			#right #one h2, #right .post h2, .category_wrap h2 { margin-bottom:1em !important; }
+			.post_wrap { margin-bottom:3em !important; }	
 
 		/* Poptrox */
 
