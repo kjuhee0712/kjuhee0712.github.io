@@ -5,6 +5,10 @@
 .post_wrap img { display:block; margin:20px auto; max-width:100%; height:auto; }
 .post_wrap > ul.inform { margin:40px 0; padding:0; } 
 .post_wrap > ul.inform li { display:block; padding:0; font-size:14px; color:#888; } 
+.post_wrap > ul.inform li.preview__catetory a { color:#888; } 
+.post_wrap > ul.inform li.preview__catetory a:after { content:", " }
+.post_wrap > ul.inform li.preview__catetory a:last:after { content:"" }
+
 .post_row .prev, .post_row .next { width:40%; }
 .post_row .prev { float:left; text-align:left; }
 .post_row .next { float:right; text-align:right; }
