@@ -214,6 +214,7 @@
       clear: both;
     }
 
+    /* 스타일 추가 */
     #chgDpt .modal-dialog { width:400px; }
     #chgDpt .form-group input { width:78%; }
     #chgDpt .form-group button { float:right; width:20%; cursor:pointer; }
