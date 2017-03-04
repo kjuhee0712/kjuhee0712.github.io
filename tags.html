@@ -4,27 +4,36 @@ permalink: /tags/
 title: Tags
 ---
 
-<ul class="tag-cloud">
-{% for tag in site.tags %}
-  <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
-    <a href="#{{ tag | first | slugize }}">
-      {{ tag | first }}
-    </a> &nbsp;&nbsp;
-  </span>
-{% endfor %}
-</ul>
+<!-- Main -->
+<div id="main">
+  <!-- One -->
+    <ul class="tag-cloud">
+    {% for tag in site.tags %}
+      <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
+        <a href="#{{ tag | first | slugize }}">
+          {{ tag | first }}
+        </a> &nbsp;&nbsp;
+      </span>
+    {% endfor %}
+    </ul>
 
-<div id="archives">
-{% for tag in site.tags %}
-  <div class="archive-group">
-    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+  <!-- Two -->
+  <section id="archives">
+    {% for tag in site.tags %}
     <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
     <a name="{{ tag_name | slugize }}"></a>
-    {% for post in site.tags[tag_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
-    {% endfor %}
-  </div>
-{% endfor %}
-</div>
+    <div class="row">      
+      {% for post in site.tags[tag_name] %}
+      <article id="#{{ tag_name | slugize }}" class="6u 12u$(xsmall) preview" itemprop="blogPost">
+        <a href="{{ root_url }}{{ post.url }}" class="image fit thumb" itemprop="url"><img src="{{ post.image-sm }}" alt="" /></a>
+        <a href="{{ root_url }}{{ post.url }}" class="txt" itemprop="url">
+          <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3 class="preview__header" itemprop="name">{{ post.title }}</h3>
+          {% include post_tags.html %}                
+        </a>        
+      </article>  
+      {% endfor %}          
+    </div>
+    {% endfor %}  
+  </section>          
+</div>    
