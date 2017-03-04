@@ -51,7 +51,7 @@ title: Tags
     <a name="{{ tag_name | slugize }}"></a>
     <div class="row">      
       {% for post in site.tags[tag_name] %}
-      <article id="#{{ tag_name | slugize }}" class="6u 12u$(xsmall) preview" itemprop="blogPost">
+      <article class="6u 12u$(xsmall) preview" itemprop="blogPost">
         <a href="{{ root_url }}{{ post.url }}" class="image fit thumb" itemprop="url"><img src="{{ post.image-sm }}" alt="" /></a>
         <a href="{{ root_url }}{{ post.url }}" class="txt" itemprop="url">
           <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
