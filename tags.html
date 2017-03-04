@@ -4,17 +4,6 @@ permalink: /tags/
 title: Tags
 ---
 
-  {% if site.tags[page.tag] %}
-    <ul class="tags">
-    {% for post in site.tags[page.tag] %}
-      <li class="tag"><a class="tag-link" href=""></a></li>
-    {% endfor %}
-    </ul>
-  {% else %}
-    <p>There are no posts for this tag.</p>
-  {% endif %}
-
-
 <!-- Main -->
 <div id="main">
   <!-- One -->
@@ -30,7 +19,7 @@ title: Tags
 
   <!-- Two -->
   <section id="archives">
-    {% for post in site.tags[page.tag] %}
+    {% if site.tags[page.tag] %}
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
     <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
     <a name="{{ tag_name | slugize }}"></a>
@@ -45,7 +34,7 @@ title: Tags
         </a>        
       </article>  
       {% endfor %}          
-    </div>
-    {% endfor %}  
+    </div>  
+    {% endif %}
   </section>          
 </div>    
