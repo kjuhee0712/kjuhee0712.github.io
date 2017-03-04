@@ -2592,14 +2592,14 @@ s@import url("font-awesome.min.css");
 				padding-top: 0;
 			}
 
-		#main > section#one p { display:inline-block; margin-top:45px; font-size:13px; }
-		#main > section#one header h2 { margin-bottom:0; }
+		.post_row p { display:inline-block; margin-top:45px; font-size:13px; }
+		.post_row header h2 { margin-bottom:0; }
 
-		#main > section#two a.txt h3 { display:inline; font-size:17px; color:#666; }
-		#main > section#two a.txt span, #main > section#two a.txt p { margin-bottom:0; font-size:14px; color:#aaa; line-height:20px; }
-		#main > section#two ul.preview__category { margin:0 0 3em 0; padding:0; }
-		#main > section#two ul.preview__category li { padding:0; padding-right:0.3em; }
-		#main > section#two ul.preview__category li a { font-size:14px; line-height:20px; }
+		.post_row a.txt h3 { display:inline; font-size:17px; color:#666; }
+		.post_row a.txt span, .post_row a.txt p { margin-bottom:0; font-size:14px; color:#aaa; line-height:20px; }
+		.post_row ul.preview__category { margin:0 0 3em 0; padding:0; }
+		.post_row ul.preview__category li { padding:0; padding-right:0.3em; }
+		.post_row ul.preview__category li a { font-size:14px; line-height:20px; }
 
 
 /* Poptrox */
