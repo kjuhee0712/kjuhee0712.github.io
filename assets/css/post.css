@@ -13,4 +13,4 @@
 .post_row .prev, .post_row .next { width:40%; }
 .post_row .prev { float:left; text-align:left; }
 .post_row .next { float:right; text-align:right; }
-.post_row .prev span.txt, .post_row .next span.txt { font-size:14px; color:#aaa; line-height:20px; }
+.post_row .prev span.txt, .post_row .next span.txt { display:inline-block; margin-bottom:10px; font-size:14px; color:#aaa; line-height:20px; }
