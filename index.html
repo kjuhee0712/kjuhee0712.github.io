@@ -34,7 +34,7 @@ layout: default
 					<span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y년 %-m부터 약 %-d개월 이내" }}</span>
 					<p class="preview__excerpt" itemprop="description">{{ post.description }}</p>
 				</a>
-				<p class="preview__excerpt" itemprop="description">{{ post.categories }}</p>
+				<p class="preview__excerpt" itemprop="description">{{ post.categories | join: ', ' }}</p>
 				{% for category in post.categories %}
 						  <li><a href="/category/{{ post.categories | join: ', ' }}/">@ {{ post.categories | join: ', ' }}</a></li>	    
 				{% endfor %}
