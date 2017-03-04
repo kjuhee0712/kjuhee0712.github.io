@@ -5,7 +5,7 @@
     {% assign categorys = page.categorys %}
   {% endif %}
   {% for category in categorys %}
-  <a href="/categorys/{{category}}">{{category}}</a>{% unless forloop.last %},{% endunless %}
+  <a href="/category/{{category}}">{{category}}</a>{% unless forloop.last %},{% endunless %}
   {% endfor %}
 </div>
 <br/>
