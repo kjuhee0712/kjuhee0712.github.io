@@ -36,7 +36,7 @@ layout: default
 				</a>
 				<p class="preview__excerpt" itemprop="description">{{ post.categories }}</p>
 				{% for category in post.categories %}
-						  <li><a href="/category/{{ post.categories | first }}/">@ {{ post.categories | first }}</a></li>	    
+						  <li><a href="/category/{{ post.categories }}/">@ {{ post.categories }}</a></li>	    
 				{% endfor %}
 			</article>
 			{% endfor %}					
