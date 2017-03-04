@@ -2,3 +2,4 @@
 
 .post_wrap { font-size:13px; line-height:30px; }
 .post_wrap span { color:red; }
+.post_wrap img { display:block; margin:20px auto; max-width:100%; height:auto; }

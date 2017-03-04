@@ -18,13 +18,13 @@ layout: default
         <a  href="{{page.previous.url | prepend: site.baseurl }}"  class="image fit thumb" itemprop="url"><img src="{{ page.previous.image-sm }}" alt="" /></a>
         <a href="{{page.previous.url | prepend: site.baseurl }}" class="txt" itemprop="url">
           <h3 class="preview__header" itemprop="name">{{ page.previous.title }}</h3>
-          <p class="preview__date" itemprop="datePublished" datetime="{{ page.previous.date | date_to_xmlschema }}">{{ page.previous.date | date: "%Y년 %-m부터 약 %-d개월 이내" }}</p>
-          <ul class="preview__category">
-            {% for categories in page.previous.categories %}
-              <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
-            {% endfor %}
-          </ul>
-         </a>        
+          <p class="preview__date" itemprop="datePublished" datetime="{{ page.previous.date | date_to_xmlschema }}">{{ page.previous.date | date: "%Y년 %-m부터 약 %-d개월 이내 완료" }}</p>
+        </a>   
+        <ul class="preview__category">
+          {% for categories in page.previous.categories %}
+            <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
+          {% endfor %}
+        </ul>     
     </div>
   {% endif %}
  
@@ -34,10 +34,14 @@ layout: default
         <span>Next >></span>
         <a  href="{{page.next.url | prepend: site.baseurl }}"  class="image fit thumb" itemprop="url"><img src="{{ page.next.image-sm }}" alt="" /></a>
         <a href="{{page.next.url | prepend: site.baseurl }}" class="txt" itemprop="url">
-          <span class="preview__date" itemprop="datePublished" datetime="{{ page.next.date | date_to_xmlschema }}">{{ page.next.date | date: "%b %-d, %Y" }}</span>
           <h3 class="preview__header" itemprop="name">{{ page.next.title }}</h3>
-          <p class="preview__excerpt" itemprop="description">{{ post.categories }}</p>                  
-        </a>        
+          <p class="preview__date" itemprop="datePublished" datetime="{{ page.next.date | date_to_xmlschema }}">{{ page.next.date | date: "%Y년 %-m부터 약 %-d개월 이내 완료" }}</p>
+        </a>   
+        <ul class="preview__category">
+          {% for categories in page.next.categories %}
+            <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
+          {% endfor %}
+        </ul>       
     </div>
     {% endif %}
 
