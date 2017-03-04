@@ -18,7 +18,20 @@
 			<header id="header">
 				<div class="inner">
 					<a href="/" class="image avatar"><img src="{{ site.baseurl }}/images/logo.png" alt="" /></a>
-					<div>{ site.categories }</div>
+					<ul>
+						{% for category in site.categories %}
+
+						   {% assign cat_name = category[0] %}
+
+						  {% for post in site.categories.cat_name %}
+
+						       <li><a name="{{ category | first }}">{{ category | first }}</a>
+
+						  {% endfor%}
+
+						 {% endfor %}
+
+					</ul>
 					<ul>
 						<li><a href="/category/FrontEnd/">#프론트앤드개발</a></li>
 						<li><a href="/category/Design/">#디자인</a></li>
