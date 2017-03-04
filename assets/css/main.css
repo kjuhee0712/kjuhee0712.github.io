@@ -2600,8 +2600,8 @@ s@import url("font-awesome.min.css");
 
 		.post_row a.txt h3 { display:inline; font-size:17px; color:#666; }
 		.post_row a.txt span, .post_row a.txt p { margin-bottom:0; font-size:14px; color:#aaa; line-height:20px; }
-		.post_row ul.preview__category { margin:0 0 3em 0; padding:0; }
-		.post_row ul.preview__category li { padding:0; padding-right:0.3em; }
+		.post_row ul.preview__category { margin:5px 0 3em 0; padding:0; line-height:initial; }
+		.post_row ul.preview__category li { line-height:initial; padding:0; padding-right:0.3em; }
 		.post_row ul.preview__category li a { font-size:14px; line-height:20px; color:#aaa; }
 
 		.category_wrap h2 { margin-top:0.5em; margin-bottom:59px; }
