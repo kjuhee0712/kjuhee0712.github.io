@@ -1,10 +1,10 @@
-<div class="post-categorys">
+<div class="post-categories">
   {% if post %}
-    {% assign categorys = post.categorys %}
+    {% assign categories = post.categories %}
   {% else %}
-    {% assign categorys = page.categorys %}
+    {% assign categories = page.categories %}
   {% endif %}
-  {% for category in categorys %}
+  {% for category in categories %}
   <a href="/category/{{category}}">{{category}}</a>{% unless forloop.last %},{% endunless %}
   {% endfor %}
 </div>
