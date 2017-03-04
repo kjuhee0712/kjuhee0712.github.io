@@ -7,7 +7,7 @@
 .post_wrap > ul.inform li { display:block; padding:0; font-size:14px; color:#888; } 
 .post_wrap > ul.inform li.preview__catetory a { color:#888; } 
 .post_wrap > ul.inform li.preview__catetory a:after { content:", " }
-.post_wrap > ul.inform li.preview__catetory a:last-child:after { content:"." }
+.post_wrap > ul.inform li.preview__catetory a:last-child:after { content:"" }
 
 .post_row .prev, .post_row .next { width:40%; }
 .post_row .prev { float:left; text-align:left; }

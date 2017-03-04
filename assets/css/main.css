@@ -2592,6 +2592,9 @@ s@import url("font-awesome.min.css");
 				padding-top: 0;
 			}
 
+		#right #one h2 {}
+		#right #one p { font-size:14px; color:#aaa; }
+			
 		.post_row p { display:block; font-size:13px; }
 		.post_row header h2 { margin-bottom:0; }
 
