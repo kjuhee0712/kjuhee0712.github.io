@@ -17,10 +17,14 @@ layout: default
         <span><< previous</span>
         <a  href="{{page.previous.url | prepend: site.baseurl }}"  class="image fit thumb" itemprop="url"><img src="{{ page.previous.image-sm }}" alt="" /></a>
         <a href="{{page.previous.url | prepend: site.baseurl }}" class="txt" itemprop="url">
-          <span class="previousiew__date" itemprop="datePublished" datetime="{{ page.previous.date | date_to_xmlschema }}">{{ page.previous.date | date: "%b %-d, %Y" }}</span>
-          <h3 class="previousiew__header" itemprop="name">{{ page.previous.title }}</h3>
-          <p class="preview__excerpt" itemprop="description">{{ post.categories }}</p>
-        </a>        
+          <h3 class="preview__header" itemprop="name">{{ page.previous.title }}</h3>
+          <p class="preview__date" itemprop="datePublished" datetime="{{ page.previous.date | date_to_xmlschema }}">{{ page.previous.date | date: "%Y년 %-m부터 약 %-d개월 이내" }}</p>
+          <ul class="preview__category">
+            {% for categories in page.previous.categories %}
+              <li><a href="/category/{{ categories }}/"># {{ categories }}</a> </li>      
+            {% endfor %}
+          </ul>
+         </a>        
     </div>
   {% endif %}
  
