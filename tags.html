@@ -4,6 +4,22 @@ permalink: /tags/
 title: Tags
 ---
 
+<div id="archives">
+{% for tag in site.tags %}
+  <div class="archive-group">
+    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+    <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
+    <a name="{{ tag_name | slugize }}"></a>
+    {% for post in site.tags[tag_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
+
+
 
 <!-- Main -->
 <div id="main">
@@ -18,47 +34,24 @@ title: Tags
     {% endfor %}
     </ul>
 
-<div id="archives">
-{% if site.tags[page.tag] %}
-  <div class="archive-group">
+  <!-- Two -->
+  <section id="archives">
+    {% for post in site.tags[page.tag] %}
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
     <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
     <a name="{{ tag_name | slugize }}"></a>
-    {% for post in site.tags[page.tag] %}
-    <article class="archive-item">
-      <h4><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
-    {% endfor %}
-  </div>
-{% endif %}
-</div>
-
-
-{% assign tag_names = "" | split: "|"  %}
-
-{% for posts_by_tag in site.tags %}
-  {% assign tag_names = tag_names | push: posts_by_tag.first %}
-{% endfor %}
-
-{% assign tag_names = tag_names | sort %}
-
-{% include tag_cloud.html tag_names=tag_names %}
-
-<hr>
-
-<section class="posts-by-tags">
-  {% for tag_name in tag_names %}
-    <div>
-      <h3 id="{{ tag_name }}">
-        {{ tag_name | capitalize | replace: "_", " " }}
-      </h3>
-
+    <div class="row">      
       {% for post in site.tags[tag_name] %}
-        <a href="{{ post.url | prepend: baseurl }}">
-          {{ post.title }}
-        </a>
-      {% endfor %}
+      <article class="6u 12u$(xsmall) preview" itemprop="blogPost">
+        <a href="{{ root_url }}{{ post.url }}" class="image fit thumb" itemprop="url"><img src="{{ post.image-sm }}" alt="" /></a>
+        <a href="{{ root_url }}{{ post.url }}" class="txt" itemprop="url">
+          <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3 class="preview__header" itemprop="name">{{ post.title }}</h3>
+          {% include post_tags.html %}                
+        </a>        
+      </article>  
+      {% endfor %}          
     </div>
-  {% endfor %}
-</section>
+    {% endfor %}  
+  </section>          
 </div>    
