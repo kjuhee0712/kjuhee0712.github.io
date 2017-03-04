@@ -2573,20 +2573,20 @@ s@import url("font-awesome.min.css");
 
 /* Main */
 
-	#main {
+	#right {
 		margin-left: 35%;
 		max-width: 50em;
 		padding: 6em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
-		#main > section {
+		#right > section {
 			border-top: solid 1px #ccc;
 			margin: 3em 0 0 0;
 			padding: 4em 0 0 0;
 		}
 
-			#main > section:first-child {
+			#right > section:first-child {
 				border-top: 0;
 				margin-top: 0;
 				padding-top: 0;
@@ -2912,7 +2912,7 @@ s@import url("font-awesome.min.css");
 
 		/* Main */
 
-			#main {
+			#right {
 				margin-left: 30%;
 				max-width: none;
 				padding: 6em 3em 3em 3em;
@@ -3004,7 +3004,7 @@ s@import url("font-awesome.min.css");
 
 		/* Main */
 
-			#main {
+			#right {
 				margin: 0;
 				padding: 6em 4em;
 				width: 100%;
@@ -3071,11 +3071,11 @@ s@import url("font-awesome.min.css");
 
 		/* Main */
 
-			#main {
+			#right {
 				padding: 2.25em 1.5em 0.25em 1.5em;
 			}
 
-				#main > section {
+				#right > section {
 					margin: 2.25em 0 0 0;
 					padding: 2.25em 0 0 0;
 				}

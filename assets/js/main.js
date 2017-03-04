@@ -30,7 +30,7 @@
 			$body = $('body'),
 			$header = $('#header'),
 			$footer = $('#footer'),
-			$main = $('#main');
+			$main = $('#right');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');

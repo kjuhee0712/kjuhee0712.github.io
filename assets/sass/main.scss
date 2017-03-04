@@ -987,7 +987,7 @@
 
 /* Main */
 
-	#main {
+	#right {
 		margin-left: $size-header-width;
 		max-width: 50em + $size-header-pad;
 		padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
@@ -1230,7 +1230,7 @@
 
 		/* Main */
 
-			#main {
+			#right {
 				margin-left: $size-header-width;
 				max-width: none;
 				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
@@ -1323,7 +1323,7 @@
 
 		/* Main */
 
-			#main {
+			#right {
 				margin: 0;
 				padding: ($size-header-pad * 1.5) $size-header-pad;
 				width: 100%;
@@ -1399,7 +1399,7 @@
 
 		/* Main */
 
-			#main {
+			#right {
 				padding: ($size-header-pad * 1.5) $size-header-pad (($size-header-pad * 1.5) - _size(element-margin)) $size-header-pad;
 
 				> section {
