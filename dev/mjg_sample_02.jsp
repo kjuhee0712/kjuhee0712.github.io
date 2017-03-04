@@ -5,8 +5,7 @@
 //탭 영역 스크립트
      jQuery(document).ready(function() {
      
-        $('.tab_1depth_li').on("click", function() {  
-            var tab_2depth_height = 92;
+        $('.tab_1depth_li').on("click", function() {             
             var a = $('ul.tab_2depth');
             var o = $(this).children().children("ul.tab_2depth");
             var h = o.height();
