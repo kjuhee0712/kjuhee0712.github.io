@@ -1,14 +1,11 @@
 ---
 layout: post
-title: "서비스 홈페이지"
-date: 2012-01-01
+title: "서비스 화면설계서"
+date: 2013-04-01
 categories:
-  - Homepage
-  - Design
-  - FrontEnd
-  - Html,Css
-image: https://kjuhee0712.github.io/images/pages/20120101_st.jpg
-image-sm: https://kjuhee0712.github.io/images/thumbs/20120101_st.jpg
+  - WebPlan
+image: https://kjuhee0712.github.io/images/pages/20130401_wd_storyboard_02.jpg
+image-sm: https://kjuhee0712.github.io/images/thumbs/20130401_wd_storyboard_02.jpg
 ---
 
 <ul class="inform">
