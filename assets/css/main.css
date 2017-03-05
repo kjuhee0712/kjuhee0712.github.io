@@ -2522,8 +2522,8 @@ s@import url("font-awesome.min.css");
 		}
 
 		#header ul { list-style:none; margin-top:0;}
-		#header ul li { float:right; }
-		#header ul li.enter { clear:right; }
+		#header ul li { display:inline; margin:0; padding:0; }
+		#header ul li.enter:after { content:"<br>"  }
 		#header ul li a { display:block; font-size:13px; color:#fff; opacity:0.9; }
 
 		#header .image.avatar {
