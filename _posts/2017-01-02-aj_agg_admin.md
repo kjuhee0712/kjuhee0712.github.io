@@ -10,6 +10,9 @@ categories:
   - JS,Jquery
 image: https://kjuhee0712.github.io/images/pages/20170102_aj_agg_admin.jpg
 image-sm: https://kjuhee0712.github.io/images/thumbs/20170102_aj_agg_admin.jpg
+link-01: https://github.com/kjuhee0712/kjuhee0712.github.io/blob/master/dev/aj_agg_admin_page.jsp
+link-02: https://github.com/kjuhee0712/kjuhee0712.github.io/blob/master/dev/aj_agg_admin_menu.jsp
+link-03: https://github.com/kjuhee0712/kjuhee0712.github.io/blob/master/dev/aj_agg_admin_sctipt.jsp
 ---
 
 <ul class="inform">
@@ -18,8 +21,9 @@ image-sm: https://kjuhee0712.github.io/images/thumbs/20170102_aj_agg_admin.jpg
 		{% for categories in page.categories %}
            <a href="/category/{{ categories }}/">#{{ categories }}</a>     
       	{% endfor %}</li>
-    <li class="preview__link" itemprop="link">- 더보기 1 : <a href="{{ page.link-01 }}" target="_blank">부서원 다중 선택 팝업</a></li>
-    <li class="preview__link" itemprop="link">- 더보기 2 : <a href="{{ page.link-02 }}" target="_blank">탭 영역</a></li>  	
+    <li class="preview__link" itemprop="link">- 더보기 1 : <a href="{{ page.link-01 }}" target="_blank">권한관리 페이지 샘플</a></li>
+    <li class="preview__link" itemprop="link">- 더보기 2 : <a href="{{ page.link-02 }}" target="_blank">메뉴 영역</a></li>    
+    <li class="preview__link" itemprop="link">- 더보기 3 : <a href="{{ page.link-03 }}" target="_blank">스크립트 샘플</a></li>  	
 </ul>
 
 ![_config.yml]({{ page.image }})
