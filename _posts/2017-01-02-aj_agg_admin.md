@@ -10,9 +10,9 @@ categories:
   - JS,Jquery
 image: https://kjuhee0712.github.io/images/pages/20170102_aj_agg_admin.jpg
 image-sm: https://kjuhee0712.github.io/images/thumbs/20170102_aj_agg_admin.jpg
-link-01: https://github.com/kjuhee0712/kjuhee0712.github.io/blob/master/dev/aj_agg_admin_page.jsp
-link-02: https://github.com/kjuhee0712/kjuhee0712.github.io/blob/master/dev/aj_agg_admin_menu.jsp
-link-03: https://github.com/kjuhee0712/kjuhee0712.github.io/blob/master/dev/aj_agg_admin_sctipt.jsp
+link-01: https://github.com/kjuhee0712/kjuhee0712.github.io/blob/master/dev/aj_agg_amin_sample_page.jsp
+link-02: https://github.com/kjuhee0712/kjuhee0712.github.io/blob/master/dev/aj_agg_amin_sample_menu.jsp
+link-03: https://github.com/kjuhee0712/kjuhee0712.github.io/blob/master/dev/aj_agg_amin_sample_script.jsp
 ---
 
 <ul class="inform">
