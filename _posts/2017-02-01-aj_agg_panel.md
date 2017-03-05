@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "아주산업 판낼 디자인"
+title: "아주산업 판낼"
 date: 2017-02-01
 categories:
   - Design

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "상세페이지 디자인"
+title: "상세페이지"
 date: 2016-11-01
 categories:
   - ShoppingMall

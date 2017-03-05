@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "리플렛 디자인"
+title: "3단 리플렛"
 date: 2016-12-01
 categories:
   - GraphicDesign

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "리플렛 디자인"
+title: "빈티지 3단 리플렛"
 date: 2017-01-01
 categories:
   - GraphicDesign
