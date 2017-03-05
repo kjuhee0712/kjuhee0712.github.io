@@ -5,7 +5,7 @@ date: 2016-12-01
 categories:
   - GraphicDesign
 image: https://kjuhee0712.github.io/images/pages/20161201_aj_icr_liflet_01.jpg
-image-sm: https://kjuhee0712.github.io/images/thumbs/20170101_aj_icr_liflet_01.jpg
+image-sm: https://kjuhee0712.github.io/images/thumbs/20161201_aj_icr_liflet_01.jpg
 ---
 
 <ul class="inform">
