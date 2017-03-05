@@ -10,8 +10,8 @@ categories:
   - JS,Jquery
   - MobileWeb
   - ResponsiveWeb
-image: https://kjuhee0712.github.io/images/pages/20170201_aj_agg_admin.jpg
-image-sm: https://kjuhee0712.github.io/images/thumbs/20170201_aj_agg_admin.jpg
+image: https://kjuhee0712.github.io/images/pages/20170102_aj_agg_admin.jpg
+image-sm: https://kjuhee0712.github.io/images/thumbs/20170102_aj_agg_admin.jpg
 ---
 
 <ul class="inform">

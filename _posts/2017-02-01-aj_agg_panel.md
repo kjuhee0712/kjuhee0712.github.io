@@ -4,8 +4,8 @@ title: "아주산업 판낼 디자인"
 date: 2017-02-01
 categories:
   - Design
-image: https://kjuhee0712.github.io/images/pages/20170201_aj_panel.jpg
-image-sm: https://kjuhee0712.github.io/images/thumbs/20170201_aj_panel.jpg
+image: https://kjuhee0712.github.io/images/pages/20170201_aj_agg_panel.jpg
+image-sm: https://kjuhee0712.github.io/images/thumbs/20170201_aj_agg_panel.jpg
 ---
 
 <ul class="inform">
