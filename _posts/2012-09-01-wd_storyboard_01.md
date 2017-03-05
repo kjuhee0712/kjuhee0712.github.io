@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "관리자 시스템 화면기획서"
-date: 2013-09-01
+date: 2012-09-01
 categories:
   - Admin
   - WebPlan
-image: https://kjuhee0712.github.io/images/pages/20130901_wd_storyboard.jpg
-image-sm: https://kjuhee0712.github.io/images/thumbs/20130901_wd_storyboard.jpg
+image: https://kjuhee0712.github.io/images/pages/20120901_wd_storyboard_01.jpg
+image-sm: https://kjuhee0712.github.io/images/thumbs/20120901_wd_storyboard_01.jpg
 ---
 
 <ul class="inform">

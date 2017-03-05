@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "아주산업 관리자 시스템"
+title: "기업 내부 관리자시스템"
 date: 2017-01-02
 categories:
   - Admin
