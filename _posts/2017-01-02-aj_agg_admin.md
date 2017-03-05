@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "아주산업 사내 시스템"
-date: 2017-02-01
+title: "아주산업 관리자 시스템"
+date: 2017-01-02
 categories:
   - Homepage
   - Design
@@ -10,10 +10,8 @@ categories:
   - JS,Jquery
   - MobileWeb
   - ResponsiveWeb
-image: https://kjuhee0712.github.io/images/pages/20170201_aj_mjg.jpg
-image-sm: https://kjuhee0712.github.io/images/thumbs/20170201_aj_mjg.jpg
-link-01: https://github.com/kjuhee0712/kjuhee0712.github.io/blob/master/dev/mjg_sample_01.jsp
-link-02: https://github.com/kjuhee0712/kjuhee0712.github.io/blob/master/dev/mjg_sample_02.jsp
+image: https://kjuhee0712.github.io/images/pages/20170201_aj_agg_admin.jpg
+image-sm: https://kjuhee0712.github.io/images/thumbs/20170201_aj_agg_admin.jpg
 ---
 
 <ul class="inform">
