@@ -907,7 +907,7 @@ s@import url("font-awesome.min.css");
 			margin: 0 0 -1px -2em;
 		}
 
-		.prenext { margin-left:0; }
+		.prenext { margin-left:0 !important; }
 		.post_row .prev, .post_row .next { margin:0; padding:0; }
 
 		.post_row.uniform > * {
