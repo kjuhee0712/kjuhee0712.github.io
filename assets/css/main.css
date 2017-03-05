@@ -3082,6 +3082,7 @@ s@import url("font-awesome.min.css");
 
 			#right {
 				padding: 2.25em 1.5em 0.25em 1.5em;
+				margin-bottom:3em;
 			}
 
 				#right > section {
