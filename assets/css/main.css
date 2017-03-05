@@ -2975,7 +2975,7 @@ s@import url("font-awesome.min.css");
 				#header ul li.enter { clear:none; }
 				#header .image.avatar { width:30%; }
 				#right #one p { font-size:12px; line-height:20px; }
-				.post_row a.txt h3 { font-size:13px; display:inline-block; line-height:20px; }
+				.post_row a.txt h3 { font-size:13px; display:inline-block; line-height:20px; margin-bottom:0; }
 				.post_row a.txt span, .post_row a.txt p, .post_row ul.preview__category { margin-top:0; font-size:12px; }
 				.image.fit { margin-bottom:5px; }
 				.post_row .prev span.txt, .post_row .next span.txt { font-size:13px; }
