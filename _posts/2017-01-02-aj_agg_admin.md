@@ -3,13 +3,11 @@ layout: post
 title: "아주산업 관리자 시스템"
 date: 2017-01-02
 categories:
-  - Homepage
+  - Admin
   - Design
   - FrontEnd
   - Html,Css
   - JS,Jquery
-  - MobileWeb
-  - ResponsiveWeb
 image: https://kjuhee0712.github.io/images/pages/20170102_aj_agg_admin.jpg
 image-sm: https://kjuhee0712.github.io/images/thumbs/20170102_aj_agg_admin.jpg
 ---
