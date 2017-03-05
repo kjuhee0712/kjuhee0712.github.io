@@ -11,6 +11,7 @@ categories:
   - MobileWeb
   - ResponsiveWeb
   - Wordpress
+  - PPT
 image: https://kjuhee0712.github.io/images/pages/20160502_bp_web_mobile.jpg
 image-sm: https://kjuhee0712.github.io/images/thumbs/20160502_bp_web_mobile.jpg
 ---
