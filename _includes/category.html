@@ -8,7 +8,7 @@
           <a href="{{ post.url | prepend: site.baseurl }}"" class="image fit thumb" itemprop="url"><img src="{{ post.image-sm }}" alt="" /></a>
           <a href="{{ post.url | prepend: site.baseurl }}" class="txt" itemprop="url">          
             <h3 class="preview__header" itemprop="name">{{ post.title }}</h3>
-            <p class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y년 %-m부터 약 %-d개월 이내 완료" }}</p>
+            <p class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y년 %-m월부터 약 %-d개월 이내 완료" }}</p>
             <!-- <p class="preview__excerpt" itemprop="description">{{ post.description }}</p> -->
           </a>
           <ul class="preview__category">
