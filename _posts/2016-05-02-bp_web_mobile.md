@@ -22,7 +22,7 @@ link: http://bizmpeople.com/
 		{% for categories in page.categories %}
            <a href="/category/{{ categories }}/">#{{ categories }}</a>     
       	{% endfor %}</li>
-  <li class="preview__link" itemprop="link">- 더보기 : <a href="{{ page.link }}" target="_blank">워드프레스 사이트 샘플</a></li> 
+  <li class="preview__link" itemprop="link">- 더보기 : <a href="{{ page.link }}" target="_blank">워드프레스 사이트</a></li> 
 </ul>
 
 ![_config.yml]({{ page.image }})
