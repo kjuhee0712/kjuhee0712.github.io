@@ -13,6 +13,7 @@ categories:
   - Wordpress
 image: https://kjuhee0712.github.io/images/pages/20160502_bp_web_mobile.jpg
 image-sm: https://kjuhee0712.github.io/images/thumbs/20160502_bp_web_mobile.jpg
+link: http://bizmpeople.com/
 ---
 
 <ul class="inform">
@@ -21,6 +22,7 @@ image-sm: https://kjuhee0712.github.io/images/thumbs/20160502_bp_web_mobile.jpg
 		{% for categories in page.categories %}
            <a href="/category/{{ categories }}/">#{{ categories }}</a>     
       	{% endfor %}</li>
+  <li class="preview__link" itemprop="link">- 더보기 : <a href="{{ page.link }}" target="_blank">워드프레스 사이트 샘플</a></li> 
 </ul>
 
 ![_config.yml]({{ page.image }})
