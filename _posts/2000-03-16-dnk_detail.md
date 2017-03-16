@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "회사 홈페이지"
+title: "DNK 상세페이지 테스트"
 date: 2011-11-01
 categories:
   - Homepage
