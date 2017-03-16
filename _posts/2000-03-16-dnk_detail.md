@@ -29,6 +29,6 @@ image-sm: https://kjuhee0712.github.io/images/thumbs/20111101_bs.jpg
 ![친절한 스크린샷]({{ site.url }}/images/test/newf107/TSAlock.jpg)
 ![친절한 스크린샷]({{ site.url }}/images/test/newf107/quality_gif.gif)
 ![친절한 스크린샷]({{ site.url }}/images/test/quality.jpg)
-![친절한 스크린샷]({{ site.url }}/images/test/quality_img.gif)
+![친절한 스크린샷]({{ site.url }}/images/test/quality_img.jpg)
 ![친절한 스크린샷]({{ site.url }}/images/test/inform.jpg)
 
