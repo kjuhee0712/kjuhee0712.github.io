@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "회사 홈페이지"
 date: 2011-11-01
 categories:
@@ -34,7 +34,7 @@ image-sm: https://kjuhee0712.github.io/images/thumbs/20111101_bs.jpg
 ![친절한 스크린샷]({{ site.url }}/images/test/newf107/11.jpg)
 ![친절한 스크린샷]({{ site.url }}/images/test/newf107/TSAlock.jpg)
 ![친절한 스크린샷]({{ site.url }}/images/test/newf107/quality_gif.gif)
-![친절한 스크린샷]({{ site.url }}/images/test/newf107/quality.jpg)
-![친절한 스크린샷]({{ site.url }}/images/test/newf107/quality_img.gif)
-![친절한 스크린샷]({{ site.url }}/images/test/newf107/inform.jpg)
+![친절한 스크린샷]({{ site.url }}/images/test/quality.jpg)
+![친절한 스크린샷]({{ site.url }}/images/test/quality_img.gif)
+![친절한 스크린샷]({{ site.url }}/images/test/inform.jpg)
 
