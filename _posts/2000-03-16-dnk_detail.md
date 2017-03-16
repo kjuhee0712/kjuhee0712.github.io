@@ -1,12 +1,23 @@
 ---
 layout: post
-title: "DNK 상세페이지"
-date: 2000-03-16
+title: "회사 홈페이지"
+date: 2011-11-01
 categories:
-  - Shoppingmall
-image01: https://kjuhee0712.github.io/images/pages/20170201_aj_mjg.jpg
-
+  - Homepage
+  - Design
+  - FrontEnd
+  - Html,Css
+image: https://kjuhee0712.github.io/images/pages/20111101_bs.jpg
+image-sm: https://kjuhee0712.github.io/images/thumbs/20111101_bs.jpg
 ---
+
+<ul class="inform">
+  <li class="preview__date" itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">- 작업기간 : {{ page.date | date: "%Y년 %-m월부터 약 %-d개월 이내" }}</li>
+  <li class="preview__catetory" itemprop="catetory">- 작업 내용 :
+    {% for categories in page.categories %}
+           <a href="/category/{{ categories }}/">#{{ categories }}</a>     
+        {% endfor %}</li>
+</ul>
 
 ![친절한 스크린샷]({{ site.url }}/images/test/top.jpg)
 ![친절한 스크린샷]({{ site.url }}/images/test/brandstory.jpg)
