@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "회사 홈페이지"
 date: 2011-11-01
 categories:
