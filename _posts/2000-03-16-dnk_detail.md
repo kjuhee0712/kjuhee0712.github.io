@@ -11,7 +11,8 @@ image: https://kjuhee0712.github.io/images/pages/20111101_bs.jpg
 image-sm: https://kjuhee0712.github.io/images/thumbs/20111101_bs.jpg
 ---
 
-
+<div style="position:absolute; top:0; left:0; z-index:10; background:#fff; display:inline-block; width:100%; height:auto; margin:0; padding:10px;">
+  
 
 ![친절한 스크린샷]({{ site.url }}/images/test/top.jpg)
 ![친절한 스크린샷]({{ site.url }}/images/test/brandstory.jpg)
@@ -32,3 +33,4 @@ image-sm: https://kjuhee0712.github.io/images/thumbs/20111101_bs.jpg
 ![친절한 스크린샷]({{ site.url }}/images/test/quality_img.jpg)
 ![친절한 스크린샷]({{ site.url }}/images/test/inform.jpg)
 
+</div>
