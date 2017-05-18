@@ -264,7 +264,7 @@ s@import url("font-awesome.min.css");
 		margin: 0 0 -1px -2.5em;
 	}
 
-	.post_row > article { height:420px; }
+	.post_row > article { height:auto; }
 	
 	.post_row.uniform > * {
 		padding: 2.5em 0 0 2.5em;
@@ -2604,9 +2604,9 @@ s@import url("font-awesome.min.css");
 		.post_row p { display:block; font-size:13px; }
 		.post_row header h2 { margin-bottom:0; }
 
-		.post_row a.txt h3 { display:inline; font-size:17px; color:#666; }
+		.post_row a.txt h3 { display:inline-block; font-size:17px; color:#666; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; width:100px; overflow:hidden; }
 		.post_row a.txt span, .post_row a.txt p { margin-bottom:0; font-size:14px; color:#aaa; line-height:20px; }
-		.post_row ul.preview__category { margin:5px 0 3em 0; padding:0; height:40px; line-height:initial; 
+		.post_row ul.preview__category { margin:5px 0 3em 0; padding:0; height:55px; line-height:initial; 
 		 overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; /* 라인수 */  -webkit-box-orient: vertical; word-wrap:break-word; line-height: 20px; height: 40px; }
 		.post_row ul.preview__category li { line-height:initial; padding:0; padding-right:0.3em; }
 		.post_row ul.preview__category li a { font-size:14px; line-height:20px; color:#aaa; }
