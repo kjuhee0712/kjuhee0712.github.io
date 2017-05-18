@@ -265,6 +265,7 @@ s@import url("font-awesome.min.css");
 	}
 
 	.post_row > article { height:auto; }
+	.post_row > article a { display:inline-block; width:100%; }
 	
 	.post_row.uniform > * {
 		padding: 2.5em 0 0 2.5em;
