@@ -3025,6 +3025,10 @@ s@import url("font-awesome.min.css");
 				width: 100%;
 			}
 
+			#right header h4 {
+				margin-bottom:0;
+			}
+
 	}
 
 /* Small */
